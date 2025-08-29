@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <title>Sign up Form</title>
+  </head>
+  <body>
+    <div class="sign-up">
+      <h3>Create an account with us</h3>
+      <form>
+        <label for="first-name">First Name:</label>
+        <input
+          type="text"
+          name="fname"
+          placeholder="Enter your first name"
+          required
+        />
+        <label for="last-name">Last Name:</label>
+        <input
+          type="text"
+          name="lname"
+          placeholder="Enter your last name"
+          required
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <label for="Telephone">Telephone:</label>
+        <input
+          type="tel"
+          name="phone-number"
+          placeholder="Enter your phone number"
+          required
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="number"
+          placeholder="Enter your password"
+          required
+        />
+        <label for="privacy-policy">
+          <input
+            type="checkbox"
+            id="privacy-policy"
+            name="privacy-policy"
+            required
+          />
+          I agree to the
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Privacy Policy</a
+          >
+        </label>
+
+        <br />
+        <button type="submit">Continue</button>
+      </form>
+    </div>
+  </body>
+</html>
